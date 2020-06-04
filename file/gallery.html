@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gallery{
+width: 100%;
+padding: 10px 10px;
+}
+.gallery1{
+width: 100%;
+padding: 10px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.text{
+width: 100%;
+padding: 10px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.gallery1 h1{
+font-size: 40px;
+text-align: center;
+}
+.gallery1 h3{
+font-size: 30px;
+}
+.gallery1 h3{
+font-size: 18px;
+padding: 20px 10px;
+}
+.ima{
+width: 100%;
+padding: 10px 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;   
+
+}
+.mobile1{
+width:20%;
+padding: 10px 0px;
+margin: 10px 20px;
+}
+.mobile1 img{
+width: 100%;
+height: 30vh;
+}
+
+.footer{
+width: 100%;
+background: #111;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+padding: 10px 20px;
+}
+.footer1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.footer-text{
+    
+    width: 45%;
+   
+}
+.footer-text i{
+    color: green;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.footer-text  span{
+    font-size: 15px;
+    color: #777;
+}
+.footer-text h4{
+color: #fff;
+}
+.footer-text p{
+color: #fff;
+}
+.store{
+padding: 20px 10px;
+}
+.store h3{
+color: #fff;
+font-size: 20px;
+}
+.store ul{
+padding: 10px 0;
+}
+.store ul li {
+padding: 6px 0;
+}
+.store ul li a{
+color: #777;
+text-decoration: none;
+}
+.store ul li a:hover{
+text-decoration: underline;
+}
+.icon1{
+width: 20%;
+padding: 0px 10px;
+display: inline-block;
+justify-content: space-between;
+align-items: center;
+}
+.icon1 img{
+max-width: 25px;
+height: 25px;
+border-radius: 10px;
+
+}
+.icon1 img:hover{
+transform: translateY(-5px);
+transition: 1s;
+}
+.icon1 p{
+color: #fff;
+font-size: 19px;
+padding: 10px 0;
+}
+.text{
+
+width: 100%;
+display: block;
+align-content:center;
+}
+h5{
+color: #Fff;
+margin: -4% 12% auto;
+font-size: 15px;
+}
+.text img{
+width: 60px;
+height: 60px;
+border-radius: 60px;
+}
+@media screen and (max-width: 991px) {
+.ima{
+width: 100%;
+padding: 10px 0px;
+
+}
+.mobile1{
+width:42%;
+height: 25vh;
+padding: 10px 0px;
+margin: 10px 10px;
+
+}
+.mobile1 img{
+width: 100%;
+height: 100%;
+}
+
+.footer{
+width: 100%;
+background: #111;
+padding: 10px 20px;
+}
+.footer1{
+flex-direction: column;
+width: 100%;
+padding: 10px 0px;
+}
+.footer-text {
+    width: 100%;
+}
+.footer-text h4{
+color: #fff;
+}
+.footer-text p{
+color: #fff;
+}
+.store{
+padding: 20px 0px;
+width: 100%;
+}
+.store h3{
+color: #fff;
+font-size: 20px;
+}
+.store ul{
+padding: 10px 0;
+}
+.store ul li {
+padding: 6px 0;
+}
+.store ul li a{
+color: #777;
+text-decoration: none;
+}
+.store ul li a:hover{
+text-decoration: underline;
+}
+.icon1{
+width: 100%;
+padding: 0px 10px;
+display:inline-block;
+justify-content: space-between;
+align-items: center;
+}
+.icon1 img{
+max-width: 25px;
+height: 25px;
+border-radius: 10px;
+
+}
+.icon1 img:hover{
+transform: translateY(-5px);
+transition: 1s;
+}
+.icon1 p{
+color: #fff;
+font-size: 19px;
+padding: 10px 0;
+}
+.text{
+width: 100%;
+padding-top: 15px;
+}
+h5{
+color: #Fff;
+font-size: 13px;
+margin: 10px 0px;
+}
+}
+</style>
+</head>
+<body>
+<section class="gallery">
+<div class="gallery1">
+<div class="text">  
+<h1>Gallery</h1>
+<h3>All  Mobile Accessories Images</h3>
+<p>We stock a range of mobile accessories at different price points. Sourced from some of the most trusted manufacturers like Samsung, Romoss, Xiaomi, Targus, Remax, Kingston, Transcend, Orico and Tronsmart, our tablet and mobile phone accessories come with a warranty.</p>
+</div>
+<div class="ima">
+<div class="mobile1">
+<img src="images/IMG-20191217-WA0012.jpg" >
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191211-WA0002.jpg" >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191031-WA0003.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191031-WA0004.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191108-WA0008.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191113-WA0000.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191113-WA0008.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191118-WA0026.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191118-WA0027.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191118-WA0030.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191118-WA0031.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191205-WA0011.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191205-WA0012.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191208-WA0021.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191211-WA0003.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191210-WA0008.jpg" >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191210-WA0012.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191210-WA0004.jpg" >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191209-WA0007.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191211-WA0002.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191212-WA0003.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191212-WA0004.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191215-WA0000.jpg"  >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191215-WA0003.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/fff.jpg" >
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191104-WA0002.jpg" >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191106-WA0004.jpg" >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191110-WA0001.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191104-WA0008.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191108-WA0006.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191113-WA0004.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191118-WA0012.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191120-WA0008.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191123-WA0011.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191123-WA0014.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0026.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0023.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0036.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0029.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0035.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0038.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191130-WA0034.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191204-WA0005.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191204-WA0001.jpg" >
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191205-WA0025.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191205-WA0013.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191207-WA0047.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191207-WA0049.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191216-WA0019.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191218-WA0004.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191218-WA0009.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191218-WA0032.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191218-WA0031.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191221-WA0008.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191222-WA0012.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0045.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0049.jpg" >
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0046.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0043.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0055.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0051.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0053.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0052.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191225-WA0324.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191229-WA0005.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191229-WA0006.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191229-WA0003.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191226-WA0086.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191229-WA0026.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20200104-WA0006.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20200106-WA0005.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20200106-WA0062.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20200105-WA0010.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20200104-WA0004.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20200104-WA0039.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20200104-WA0002.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191229-WA0028.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20200105-WA0014.jpg" >
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191225-WA0323.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191225-WA0318.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0052.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191225-WA0322.jpg">
+</div>  
+<div class="mobile1">
+<img src="images/IMG-20191224-WA0050.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191221-WA0008.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191218-WA0033.jpg">
+</div>   
+<div class="mobile1">
+<img src="images/IMG-20191218-WA0005.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191123-WA0009.jpg">
+
+</div> 
+<div class="mobile1">
+<img src="images/IMG-20191113-WA0001.jpg">
+
+</div> 
+</div>
+</div>
+</section>
+<!--footer-->
+<section class="footer">
+<div class="footer1">
+<div class="footer-text">
+<h4>Branch :</h4>
+<p>Shop #22 S.R.T.C Complex Beasement Chandni Road hyd</p>
+<i class="fa fa-phone"></i><span>#03133883927</span><br>
+<i class="fa fa-globe "></i><span>mumarshaikh64@mail.com</span>
+
+</div>
+<div class="store">
+<h3>Store Policies</h3>
+<ul>
+<li><a href="warranty.html">Warranty</a></li>
+<li><a href="exchange.html">Refund & Exchange</a></li>
+<li><a href="Security & Privacy.html">Security & Privacy</a></li>
+<li><a href="Terms & Conditions.html">Terms & Conditions</a></li>
+</ul>
+</div>
+<div class="icon1">
+<p>Contact US</p>
+<a href="#"><img src="images/facebook.png" ></a>
+<a href="#"><img src="images/twitter.png" ></a>
+<a href="#"><img src="images/intagram.png" ></a>
+<a href="#"><img src="images/whatsapp.png" ></a>
+</div>
+</div>
+<div class="text">
+<img src="images/logo.jpg" >
+<h5>©Copyright 2020 by Mehran mobile Online. All Rights Reserved.</h5>
+</div>
+</section>
+</body>
+</html>

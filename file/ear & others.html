@@ -1,0 +1,472 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ear-Phone & others</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.pouch{
+width: 100%;
+flex-basis: 50%;
+padding: 20px 20px;
+}
+.back{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.back a{
+width: 22%;
+border: 1px solid black;
+border-radius: 10px;
+padding: 10px 0px;
+margin: 20px 0px;
+text-decoration: none;
+color: #111;
+font-size: 16px;
+}
+.back a span{
+color: red;
+text-decoration: line-through;
+}
+.mobile1{
+width: 100%;
+}
+.mobile1 img{
+width: 50%;
+height: 22vh;
+margin-left: 25%;
+margin-top: -4%;
+object-fit: cover;
+}
+.pouch .back h1{
+font-size: 40px;
+margin-left: 30%;
+padding: 10px 0;
+}
+.puoch .back p{
+font-size: 18px;
+padding: 10px 0px;
+}
+.puoch .back .mobile1 p{
+font-size: 17px;
+padding: 0 15px;
+}
+.footer{
+width: 100%;
+background: #111;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+padding: 10px 20px;
+}
+.footer1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.footer-text{
+    
+    width: 45%;
+   
+}
+.footer-text i{
+    color: green;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.footer-text  span{
+    font-size: 15px;
+    color: #777;
+}
+.footer-text h4{
+color: #fff;
+}
+.footer-text p{
+color: #fff;
+}
+.store{
+padding: 20px 10px;
+}
+.store h3{
+color: #fff;
+font-size: 20px;
+}
+.store ul{
+padding: 10px 0;
+}
+.store ul li {
+padding: 6px 0;
+}
+.store ul li a{
+color: #777;
+text-decoration: none;
+}
+.store ul li a:hover{
+text-decoration: underline;
+}
+.icon1{
+width: 20%;
+padding: 0px 10px;
+display: inline-block;
+justify-content: space-between;
+align-items: center;
+}
+.icon1 img{
+max-width: 25px;
+height: 25px;
+border-radius: 10px;
+
+}
+.icon1 img:hover{
+transform: translateY(-5px);
+transition: 1s;
+}
+.icon1 p{
+color: #fff;
+font-size: 19px;
+padding: 10px 0;
+}
+.text{
+width: 100%;
+display: flex;
+align-content:center;
+}
+h5{
+color: #Fff;
+margin: 4% 10% auto;
+font-size: 15px;
+}
+.text img{
+width: 60px;
+height: 60px;
+border-radius: 60px;
+}
+@media screen and (max-width:991px ){
+    .pouch .back h1 {
+font-size: 25px;
+margin-left: 15%;
+}
+.pouch{
+width: 100%;
+flex-basis: 50%;
+padding: 20px 20px;
+}
+.back{
+width: 100%;
+}
+.back a{
+width: 45%;
+border: 1px solid black;
+border-radius: 10px;
+padding: 10px 0;
+margin: 20px 0px;
+text-decoration: none;
+color: #111;
+font-size: 16px;
+}
+.pouch .back .mobile1 p{
+font-size: 13px;
+padding: 10px 15px;
+}
+.footer{
+width: 100%;
+background: #111;
+padding: 10px 20px;
+}
+.footer1{
+flex-direction: column;
+width: 100%;
+}
+.footer-text {
+    width: 100%;
+}
+.footer-text h4{
+color: #fff;
+}
+.footer-text p{
+color: #fff;
+}
+.store{
+padding: 20px 0px;
+width: 100%;
+}
+.store h3{
+color: #fff;
+font-size: 20px;
+}
+.store ul{
+padding: 10px 0;
+}
+.store ul li {
+padding: 6px 0;
+}
+.store ul li a{
+color: #777;
+text-decoration: none;
+}
+.store ul li a:hover{
+text-decoration: underline;
+}
+.icon1{
+width: 100%;
+padding: 0px 10px;
+display:inline-block;
+justify-content: space-between;
+align-items: center;
+}
+.icon1 img{
+max-width: 25px;
+height: 25px;
+border-radius: 10px;
+
+}
+.icon1 img:hover{
+transform: translateY(-5px);
+transition: 1s;
+}
+.icon1 p{
+color: #fff;
+font-size: 19px;
+padding: 10px 0;
+}
+.text{
+width: 100%;
+padding-top: 15px;
+}
+h5{
+color: #Fff;
+font-size: 13px;
+
+}
+}
+</style>
+</head>
+<body>
+<section class="pouch">
+<div class="back">
+<h1>Ear-Phone & Other</h1>
+<p>We stock a range of mobile Ear-phone & others at different
+price points. Sourced from some of the most trusted
+manufacturers like Samsung, Romoss, Xiaomi,
+, Remax,, Transcend, Orico 
+our tablet and mobile phone 
+accessories come with a warranty.
+</p>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191031-WA0006.jpg">
+<hr>
+<p>Blue Spectrum Ear-Phone <span>Rs,450</span>Now Rs,430</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/fff.jpg">
+<hr>
+<p>TWS Ios Arpod I12 <span>Rs,1500</span>Now Rs,1450</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191113-WA0004.jpg">
+<hr>
+<p>Oppo Ear-Phone <span>Rs,250</span>Now Rs,200</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191113-WA0006.jpg">
+<hr>
+<p>TWS I9S Arpods 0.5  <span> Rs,1250</span>Now Rs,1100</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191128-WA0014.jpg">
+<hr>
+<p>ViVo Ear-Phone <span> Rs,350 </span>Now Rs,330</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0020.jpg">
+<hr>
+<p>Pop Sokite  <span> Rs,150 </span> Now Rs,130</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0023.jpg">
+<hr>
+<p>Samsung XE710 Ear-Phone <span> Rs,250 </span> Now Rs,200</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0038.jpg">
+<hr>
+<p>Akekio Ear-Phone <span> Rs,650</span>Now Rs,620</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0033.jpg">
+<hr>
+<p>Akekio Ear-Phone Bluetooth  <span> Rs,750</span>Now Rs,720</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0039.jpg">
+<hr>
+<p>Akekio Ear-Phone AE05 <span> Rs,650</span>Now Rs,620</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0052.jpg">
+<hr>
+<p>I-phone Ear-Phone Conecter <span>Rs,1200</span>Now Rs,1150</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191204-WA0001.jpg">
+<hr>
+<p>Mini BT Speaker <span> Rs,850</span>Now Rs,830</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191205-WA0002.jpg">
+<hr>
+<p>Smart Watch with Camera <span>Rs,4500</span>Now Rs,4400</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191205-WA0030.jpg">
+<hr>
+<p>Smart Watch with Camera <span>Rs,6500</span>Now Rs,6200</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191207-WA0051.jpg">
+<hr>
+<p>Bluetooth For Car's Sound  <span>Rs,450</span>Now Rs,430</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191207-WA0049.jpg">
+<hr>
+<p>Bluetooth Ear-Phone For I-phone <span>Rs,1850</span>Now Rs,1800</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191207-WA0047.jpg">
+<hr>
+<p>OX Cable in coper <span> Rs,200</span>Now Rs,170</p>
+</div></a>
+
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191210-WA0007.jpg">
+<hr>
+<p>Snek Stan for mirror <span>Rs,450</span>Now Rs,430</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191209-WA0007.jpg">
+<hr>
+<p>Glue Glass For Edge Mobiles <span>Rs,650</span>Now Rs,630</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191212-WA0006.jpg">
+<hr>
+<p>Mobile Stan For mirror  <span> Rs,250</span>Now Rs,200</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191216-WA0006.jpg">
+<hr>
+<p>Smart Hand Watch with Camera  <span> Rs,15000</span>Now Rs,14500</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191216-WA0004.jpg">
+<hr>
+<p>Stereo wireless Ear-phones <span> Rs,850</span>Now Rs,800</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191216-WA0007.jpg">
+<hr>
+<p>MI AirDost BT Ear-Phone <span>Rs,3500</span>Now Rs,3400</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191221-WA0008.jpg">
+<hr>
+<p>9D Glasses For Every Mobile <span>Rs,250</span>Now Rs,200</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191222-WA0011.jpg">
+<hr>
+<p>Mini Mobile Stan  <span> Rs,150</span>Now Rs,120</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0047.jpg">
+<hr>
+<p>China Airpod <span>Rs,950</span>Now Rs,900</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0048.jpg">
+<hr>
+<p>Ring Light Stan for Mobile <span>Rs,450</span>Now Rs,400</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191222-WA0014.jpg">
+<hr>
+<p>Mini BT Speaker <span> Rs,450 </span>Now Rs,420</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0044.jpg">
+<hr>
+<p>BT Air Pods T20 <span> Rs,2500 </span>Now Rs,2350</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0050.jpg">
+<hr>
+<p>Tripods Stan For Tiktokers <span> Rs,1150 </span>Now Rs,1000</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0053.jpg">
+<hr>
+<p>AGk Branded Ear-Phone <span>Rs,450</span>Now Rs,400</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191229-WA0003.jpg">
+<hr>
+<p>King Ston micro Sd Card 32GB <span> Rs,1200</span>Now Rs,1150</p>
+</div></a>
+</div>
+</section>
+<!--footer-->
+<section class="footer">
+<div class="footer1">
+<div class="footer-text">
+<h4>Branch :</h4>
+<p>Shop #22 S.R.T.C Complex Beasement Chandni Road hyd</p>
+
+<i class="fa fa-phone"></i><span>#03133883927</span><br>
+<i class="fa fa-globe "></i><span>mumarshaikh64@mail.com</span>
+</div>
+<div class="store">
+<h3>Store Policies</h3>
+<ul>
+<li><a href="warranty.html">Warranty</a></li>
+<li><a href="exchange.html">Refund & Exchange</a></li>
+<li><a href="Security & Privacy.html">Security & Privacy</a></li>
+<li><a href="Terms & Conditions.html">Terms & Conditions</a></li>
+</ul>
+</div>
+<div class="icon1">
+<p>Contact US</p>
+<a href=""><img src="images/facebook.png" ></a>
+<a href="#"><img src="images/twitter.png" ></a>
+<a href="#"><img src="images/intagram.png" ></a>
+<a href="#"><img src="images/whatsapp.png" ></a>
+</div>
+</div>
+<div class="text">
+    <img src="images/logo.jpg" >
+<h5>©Copyright 2020 by Mehran mobile Online. All Rights Reserved.</h5>
+</div>
+</section>
+
+</body>
+</html>

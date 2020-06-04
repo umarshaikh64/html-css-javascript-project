@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charger & power bank</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.pouch{
+width: 100%;
+flex-basis: 50%;
+padding: 20px 20px;
+}
+.back{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.back a{
+width: 22%;
+border: 1px solid black;
+border-radius: 10px;
+padding: 10px 0px;
+margin: 20px 0px;
+text-decoration: none;
+color: #111;
+font-size: 16px;
+}
+.back a span{
+color: red;
+text-decoration: line-through;
+}
+.mobile1{
+width: 100%;
+}
+.mobile1 img{
+width: 50%;
+height: 22vh;
+margin-left: 25%;
+margin-top: -4%;
+object-fit: cover;
+}
+.pouch .back h1{
+font-size: 40px;
+margin-left: 30%;
+padding: 10px 0;
+}
+.puoch .back p{
+font-size: 18px;
+padding: 10px 0px;
+}
+.puoch .back .mobile1 p{
+font-size: 17px;
+padding: 0 15px;
+}
+.footer{
+width: 100%;
+background: #111;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+padding: 10px 20px;
+}
+.footer1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.footer-text{
+    
+    width: 45%;
+   
+}
+.footer-text i{
+    color: green;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.footer-text  span{
+    font-size: 15px;
+    color: #777;
+}
+.footer-text h4{
+color: #fff;
+}
+.footer-text p{
+color: #fff;
+}
+.store{
+padding: 20px 10px;
+}
+.store h3{
+color: #fff;
+font-size: 20px;
+}
+.store ul{
+padding: 10px 0;
+}
+.store ul li {
+padding: 6px 0;
+}
+.store ul li a{
+color: #777;
+text-decoration: none;
+}
+.store ul li a:hover{
+text-decoration: underline;
+}
+.icon1{
+width: 20%;
+padding: 0px 10px;
+display: inline-block;
+justify-content: space-between;
+align-items: center;
+}
+.icon1 img{
+max-width: 25px;
+height: 25px;
+border-radius: 10px;
+
+}
+.icon1 img:hover{
+transform: translateY(-5px);
+transition: 1s;
+}
+.icon1 p{
+color: #fff;
+font-size: 19px;
+padding: 10px 0;
+}
+.text{
+width: 100%;
+display: flex;
+align-content:center;
+}
+h5{
+color: #Fff;
+margin: 4% 10% auto;
+font-size: 15px;
+}
+.text img{
+width: 60px;
+height: 60px;
+border-radius: 60px;
+}
+@media screen and (max-width:991px ){
+    .pouch .back h1 {
+font-size: 25px;
+margin-left: 15%;
+}
+.pouch{
+width: 100%;
+flex-basis: 50%;
+padding: 20px 20px;
+}
+.back{
+width: 100%;
+}
+.back a{
+width: 45%;
+border: 1px solid black;
+border-radius: 10px;
+padding: 10px 0;
+margin: 20px 0px;
+text-decoration: none;
+color: #111;
+font-size: 16px;
+}
+.pouch .back .mobile1 p{
+font-size: 13px;
+padding: 10px 30px;
+}
+.footer{
+width: 100%;
+background: #111;
+padding: 10px 20px;
+}
+.footer1{
+flex-direction: column;
+width: 100%;
+}
+.footer-text {
+    width: 100%;
+}
+.footer-text h4{
+color: #fff;
+}
+.footer-text p{
+color: #fff;
+}
+.store{
+padding: 20px 0px;
+width: 100%;
+}
+.store h3{
+color: #fff;
+font-size: 20px;
+}
+.store ul{
+padding: 10px 0;
+}
+.store ul li {
+padding: 6px 0;
+}
+.store ul li a{
+color: #777;
+text-decoration: none;
+}
+.store ul li a:hover{
+text-decoration: underline;
+}
+.icon1{
+width: 100%;
+padding: 0px 10px;
+display:inline-block;
+justify-content: space-between;
+align-items: center;
+}
+.icon1 img{
+max-width: 25px;
+height: 25px;
+border-radius: 10px;
+
+}
+.icon1 img:hover{
+transform: translateY(-5px);
+transition: 1s;
+}
+.icon1 p{
+color: #fff;
+font-size: 19px;
+padding: 10px 0;
+}
+.text{
+width: 100%;
+padding-top: 15px;
+}
+h5{
+color: #Fff;
+font-size: 13px;
+
+}
+}
+</style>
+</head>
+<body>
+<section class="pouch">
+<div class="back">
+<h1>Charger & Power Bank</h1>
+<p>We stock a range of mobile charger & power banks at different
+price points. Sourced from some of the most trusted
+manufacturers like Samsung, Romoss, Xiaomi,
+, Remax,, Transcend, Orico 
+our tablet and mobile phone 
+accessories come with a warranty.
+</p>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191117-WA0001.jpg">
+<hr>
+<p>Android Charger <span>Rs,350</span>Now Rs,330</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191118-WA0012.jpg">
+<hr>
+<p>Infinx Charger 2.1A <span>Rs,500</span>Now Rs,470</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191119-WA0007.jpg">
+<hr>
+<p>A Q L Charger<span>Rs,250</span>Now Rs,220</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0029.jpg">
+<hr>
+<p>Akekio Charger AC10  <span> Rs,750 </span>Now Rs,700</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191201-WA0006.jpg">
+<hr>
+<p>Toshi Charger 4.5A <span> Rs,350 </span>Now Rs,320</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191201-WA0017.jpg">
+<hr>
+<p>Motorola Charger <span>Rs,450</span>Now Rs,430</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191221-WA0014.jpg">
+<hr>
+<p>Samsung Fast Charger <span> Rs,350</span> Now Rs,300</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0046.jpg">
+<hr>
+<p>Samsung orignal charger 2.0 <span>Rs,650</span>Now Rs,620</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191229-WA0023.jpg">
+<hr>
+<p>China charger  <span>Rs,200</span>Now Rs,180</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191229-WA0026.jpg">
+<hr>
+<p>Revo Charger <span>Rs,250</span>Now Rs,220</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/otg.jpg">
+<hr>
+<p>OTG TYPE-C Charger Conecter <span> Rs,250</span>Now Rs,230</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20200104-WA0044.jpg">
+<hr>
+<p>branded power bank 6000mh <span> Rs,750</span>Now Rs,730</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20200104-WA0035.jpg">
+<hr>
+<p>silver power bank 6000mh <span> Rs,750</span>Now Rs,730</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191229-WA0017.jpg">
+<hr>
+<p>Android data Cable  <span>Rs,150</span>Now Rs,130</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191229-WA0019.jpg">
+<hr>
+<p>Samsung 2 IN 1 Charger <span>Rs,250</span>Now Rs,230</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0054.jpg">
+<hr>
+<p>Android data Cable  <span>Rs,190</span>Now Rs,160</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191225-WA0323.jpg">
+<hr>
+<p>faster Power Bank 10000mh <span> Rs,2000</span>Now Rs,1950</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191225-WA0322.jpg">
+<hr>
+<p>Algo Power Bank <span> Rs,2200</span>Now Rs,2150</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0045.jpg">
+<hr>
+<p>I-phone data Cable<span>Rs,250</span>Now Rs,200</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191224-WA0051.jpg">
+<hr>
+<p>I-phone Charger conecter  <span> Rs,330</span>Now Rs,300</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191222-WA0002.jpg">
+<hr>
+<p>Samsung Car Charger <span>Rs,350</span>Now Rs,330</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191218-WA0004.jpg">
+<hr>
+<p>Akekio Data Cable <span> Rs,250 </span> Now Rs,230</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191218-WA0003.jpg">
+<hr>
+<p>MI Data Cable <span>Rs,250</span>Now Rs,230</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191216-WA0019.jpg">
+<hr>
+<p>MI Power Bank 20000mh <span> Rs,3000</span>Now Rs,2850</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191208-WA0013.jpg">
+<hr>
+<p>Android Data Cable coper <span> Rs,200 </span>Now Rs,170</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191205-WA0025.jpg">
+<hr>
+<p>Android OTG Conecter <span>Rs,250</span>Now Rs,230</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191205-WA0027.jpg">
+<hr>
+<p>GA Dgets Power Bank  <span> Rs,1500 </span>Now Rs,1450</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0036.jpg">
+<hr>
+<p>Akekio Power Bank wit Cable  <span> Rs,1950</span>Now Rs,1900</p>
+</div></a>
+
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0034.jpg">
+<hr>
+<p>Akekio Data Cable UC 06 TYPE-C  <span> Rs,300</span>Now Rs,280</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0031.jpg">
+<hr>
+<p>Akekio Data Cable UC 02  <span >Rs,300 </span>Now Rs,280</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191130-WA0030.jpg">
+<hr>
+<p>Akekio Car Charger <span> Rs,750 </span>Now Rs,730</p>
+</div></a>
+<a href="#"><div class="mobile1">
+<img src="images/IMG-20191102-WA0006.jpg">
+<hr>
+<p>data Cable in magnet <span> Rs,250 </span>Now Rs,200</p>
+</div></a>
+
+</div>
+</section>
+<!--footer-->
+<section class="footer">
+<div class="footer1">
+<div class="footer-text">
+<h4>Branch :</h4>
+<p>Shop #22 S.R.T.C Complex Beasement Chandni Road hyd</p>
+
+<i class="fa fa-phone"></i><span>#03133883927</span><br>
+<i class="fa fa-globe "></i><span>mumarshaikh64@mail.com</span>
+</div>
+<div class="store">
+<h3>Store Policies</h3>
+<ul>
+<li><a href="warranty.html">Warranty</a></li>
+<li><a href="exchange.html">Refund & Exchange</a></li>
+<li><a href="Security & Privacy.html">Security & Privacy</a></li>
+<li><a href="Terms & Conditions.html">Terms & Conditions</a></li>
+</ul>
+</div>
+<div class="icon1">
+<p>Contact US</p>
+<a href=""><img src="images/facebook.png" ></a>
+<a href="#"><img src="images/twitter.png" ></a>
+<a href="#"><img src="images/intagram.png" ></a>
+<a href="#"><img src="images/whatsapp.png" ></a>
+</div>
+</div>
+<div class="text">
+    <img src="images/logo.jpg" >
+<h5>©Copyright 2020 by Mehran mobile Online. All Rights Reserved.</h5>
+</div>
+</section>
+
+</body>
+</html>
